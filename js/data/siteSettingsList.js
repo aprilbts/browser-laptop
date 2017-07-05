@@ -11,5 +11,15 @@ module.exports.defaultSiteSettingsList = [
       "name" : "autoplay",
       "pattern" : "https://www.twitch.tv",
       "value" : true,
+    },
+    {
+      "name" : "cookieControl",
+      "pattern" : "https?://www.facebook.com",
+      "value" : "allowAllCookies"
+    },
+    {
+      "name" : "cookieControl",
+      "pattern" : "https?://drive.google.com",
+      "value" : "allowAllCookies"
     }
 ]
